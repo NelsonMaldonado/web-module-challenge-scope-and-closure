@@ -20,7 +20,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
 
 // ⭐️ Example Challenge END ⭐️
 
-
+//
 ///// M V P ///////
 
 /*Task 1: counterMaker()
@@ -62,9 +62,12 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(/*Code Here*/){
+function inning(num1,num2){
     /*Code Here*/
+    var Math = Math.floor(Math.random()*(num1-(num2+1)))+num1;
+    return Math
 }
+  console.log(inning(2-9));
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
